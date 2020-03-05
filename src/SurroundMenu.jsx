@@ -155,11 +155,11 @@ SurroundMenu.propTypes = {
   limitText: PropTypes.string,
   /** 内环的半径 */
   radius: PropTypes.number,
-  /** 环形图的粗度 */
+  /** 环形图的宽 */
   strokeWidth: PropTypes.number,
   /** 环形间的间距颜色 */
   spaceColor: PropTypes.string,
-  /** 环形间是否要分割 */
+  /** 环形间分割的宽 */
   spaceSize: PropTypes.number,
   /** 环形的默认颜色，当没有设置单个环块的颜色时有效 */
   defaultColor: PropTypes.string,
