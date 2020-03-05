@@ -2,7 +2,7 @@
 
 **环形菜单组件**
 
-<img style="width:350px;height:300px" src="https://raw.githubusercontent.com/ThreeRon/react-surroundMenu/master/example/demo-01.jpg"   />
+<img style="width:250px;height:100px" src="https://raw.githubusercontent.com/ThreeRon/react-surroundMenu/master/example/demo-01.jpg"   />
 
 ## Installation
 
