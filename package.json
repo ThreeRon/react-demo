@@ -1,5 +1,5 @@
 {
-  "name": "@threeron/react-surround-menu",
+  "name": "react-surround-menu",
   "version": "1.0.1",
   "description": "react demo",
   "main": "lib/index.js",
@@ -15,7 +15,8 @@
   },
   "keywords": [
     "react",
-    "demo"
+    "menu",
+    "svg"
   ],
   "author": "threeron",
   "license": "MIT",

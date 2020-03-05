@@ -8,8 +8,8 @@ const menuData = [
   { menuName: <span>菜单三</span>, menuValue: "3", bgColor: 'rgba(0, 0, 0, 0.4)' },
   { menuName: <span>菜单四</span>, menuValue: "4", bgColor: 'rgba(0, 0, 0, 0.6)' },
   { menuName: <span>菜单五</span>, menuValue: "5", bgColor: 'rgba(0, 0, 0, 0.6)' },
-  { menuName: <span>菜单六</span>, menuValue: "6", bgColor: 'rgba(0, 0, 0, 0.7)' },
-  { menuName: <span>菜单七</span>, menuValue: "7", bgColor: 'rgba(0, 0, 0, 0.8)' },
+  { menuName: <span>菜单六</span>, menuValue: "6", bgColor: '#fff' },
+  { menuName: <span>菜单七</span>, menuValue: "7", bgColor: '#fff' },
 ]
 
 
