@@ -1,5 +1,5 @@
 {
-  "name": "@threeron/surround-menu",
+  "name": "@threeron/react-surround-menu",
   "version": "1.0.1",
   "description": "react demo",
   "main": "lib/index.js",
