@@ -2,14 +2,17 @@
 
 **环形菜单组件**
 
-![markdown](https://raw.githubusercontent.com/ThreeRon/react-surroundMenu/master/example/demo-01.jpg 'demo')
+<img style="width:450px;height:350px" src="https://raw.githubusercontent.com/ThreeRon/react-surroundMenu/master/example/demo-01.jpg"   />
 
 ## Installation
 
 `npm install @threeron/react-surround-menu`
 
-##Usage
-`import SurroundMenu from "react-surround-menu";`
+## Usage
+
+```javascript
+import SurroundMenu from 'react-surround-menu';
+```
 
 ```javascript
 const menuData = [
@@ -62,17 +65,18 @@ const menuData = [
 />;
 ```
 
-##Props
-| 参数名称 |说明 | 类型 | 默认值|
-| ------------- | ------------- |
-| data | 数据 | array[{menuName, menuValue, bgColor, ...}] | []|
-| limit | 菜单环形现象最多菜单数，超出 limit 则伸缩 | number | 4 |
-| limitPosition | 超出 limit 的伸缩菜单位置 | number | |
-| limitText | 超出 limit 部分统一的文本 | string | 更多 |
-| radius | 内环的半径 | number | 250 |
-| strokeWidth | 环形图的宽 | number | 100 |
-| spaceColor | 环形间的间距颜色 | string | #fff |
-| spaceSize | 环形间分割的宽 | number | 0.1 |
-| defaultColor | 环形的默认颜色，当没有设置单个环块 bgColor 的颜色时有效 | string | rgba(0, 0, 0, .3) |
-| onClick | 点击某个环块时触发事件 | func | () =>{} |
-| style | 根元素样式表 | object | {} |
+## Props
+
+| 参数名称      | 说明                                                    | 类型                                       | 默认值            |
+| ------------- | ------------------------------------------------------- | ------------------------------------------ | ----------------- |
+| data          | 数据                                                    | array[{menuName, menuValue, bgColor, ...}] | []                |
+| limit         | 菜单环形现象最多菜单数，超出 limit 则伸缩               | number                                     | 4                 |
+| limitPosition | 超出 limit 的伸缩菜单位置                               | number                                     |                   |
+| limitText     | 超出 limit 部分统一的文本                               | string                                     | 更多              |
+| radius        | 内环的半径                                              | number                                     | 250               |
+| strokeWidth   | 环形图的宽                                              | number                                     | 100               |
+| spaceColor    | 环形间的间距颜色                                        | string                                     | #fff              |
+| spaceSize     | 环形间分割的宽                                          | number                                     | 0.1               |
+| defaultColor  | 环形的默认颜色，当没有设置单个环块 bgColor 的颜色时有效 | string                                     | rgba(0, 0, 0, .3) |
+| onClick       | 点击某个环块时触发事件                                  | func                                       | () =>{}           |
+| style         | 根元素样式表                                            | object                                     | {}                |
