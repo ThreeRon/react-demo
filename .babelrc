@@ -1,0 +1,9 @@
+/**
+ ==============================
+     将 jsx 编译成 es5，然后再加一个通用的 env
+ ==============================
+ */
+{
+  "presets": ["@babel/preset-env", "@babel/preset-react"],
+  "plugins": ["@babel/plugin-proposal-class-properties"]
+}
