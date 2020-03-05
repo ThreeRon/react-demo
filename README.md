@@ -7,7 +7,7 @@
 ## Installation
 
 ```javascript
-npm install @threeron/react-surround-menu
+npm i react-surround-menu
 ```
 
 ## Usage
